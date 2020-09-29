@@ -27,7 +27,8 @@ public class SecretMessageBox {
 		int number = 9;
 		String respuesta = JOptionPane.showInputDialog("What's the passcode?");
 		JOptionPane.showMessageDialog(null, "secretpasscode");
-	
+	}
+	{
 	// 1. Set a password in a String variable
 	
 	// 2. Using a pop-up, ask the first u wperson for a secret message and store it in a variable
@@ -36,9 +37,11 @@ public class SecretMessageBox {
 	//    if they can guess the passcode
 	JOptionPane.showMessageDialog(null, "You can only see the secret message if you guess the passcode");
 	// 4. If their guess matches the password, show them the secret message
-	if (input.equals("names")) {
-		JOptionPane.showmessageDialog(null, "hello");
+	if (input.equals("names")); {
+	JOptionPane.showMessageDialog(null, "hello");
 	}
+		
 	// 5. If the password does not match, pop-up "INTRUDER!!"
-
-}
+	else if (input.equals("1234"));	{
+		JOptionPane.showMessageDialog(null, "INTRUDER!!");
+	}	
