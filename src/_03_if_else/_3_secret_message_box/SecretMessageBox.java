@@ -26,7 +26,7 @@ public class SecretMessageBox {
 		String name = "secretpasscode";
 		int number = 9;
 		String respuesta = JOptionPane.showInputDialog("What's the passcode?");
-		JOptionPane.showMessageDialog(null, "secretpasscode");
+		JOptionPane.showMessageDialog(null, "passcode");
 
 		// 1. Set a password in a String variable
 
